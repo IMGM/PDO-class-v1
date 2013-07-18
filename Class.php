@@ -192,7 +192,6 @@ class Pure{
 $connect = new Call();
 
 //public function insert($table, $pair = array());
-//public function insertAllAtParentTable($email, $username, $password);
 //$connect->insertWhereIndex( "Question", "hg", "questions", "UserId", "1435647" );
 //$connect->insertWithoutIndex("Email", "iamMM@Hrt", "profile");
 
