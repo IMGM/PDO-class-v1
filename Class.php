@@ -192,12 +192,12 @@ class Pure{
 $connect = new Call();
 
 //$call->insert("table", array("Id" => "###", "Name" => "Hello"));
-//$connect->insertWhereIndex( "Question", "hg", "questions", "UserId", "1435647" );
-//$connect->insertWithoutIndex("Email", "iamMM@Hrt", "profile");
+//$connect->insertWhereIndex( "Id", "hg", "questions", "Id", "1435647" );
+//$connect->insertWithoutIndex("email", "iamMM@Hrt", "table");
 
 
-//$connect->fetchWhereIndex("Password", "profile", "UniqueId", "");
-//$connect->fetchWithoutIndex("Password", "profile");
+//$connect->fetchWhereIndex("password", "table", "Id", "");
+//$connect->fetchWithoutIndex("password", "table");
 
 //$connect->email("dff@sdff");
 //$connect->ip("234.23.23.56");
