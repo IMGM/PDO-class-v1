@@ -8,14 +8,10 @@ Interface Browse{
     public function fetchWithoutIndex($column, $table, $limit);
     public function fetchWhereIndex($column, $table, $indexColumn, $indexValue = "" );
     
-    public function insert($table, $pair = array());
+    public function insert($table, $pair = array()); //is a versatile insertion method
     public function insertAllAtParentTable($email, $username, $password);
     public function insertWithoutIndex($valueColumn, $value, $table);
     public function insertWhereIndex($valueColumn, $value, $table, $indexColumn, $indexValue = "" );
-    
-
-    
-
 }
 class Call implements Browse{
     // Database info
