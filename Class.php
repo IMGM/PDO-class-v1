@@ -9,7 +9,6 @@ Interface Browse{
     public function fetchWhereIndex($column, $table, $indexColumn, $indexValue = "" );
     
     public function insert($table, $pair = array()); //is a versatile insertion method
-    public function insertAllAtParentTable($email, $username, $password);
     public function insertWithoutIndex($valueColumn, $value, $table);
     public function insertWhereIndex($valueColumn, $value, $table, $indexColumn, $indexValue = "" );
 }
