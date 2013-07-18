@@ -191,7 +191,7 @@ class Pure{
 
 $connect = new Call();
 
-//public function insert($table, $pair = array());
+//$call->insert("profile", array("Id" => "###", "Name" => "Hello"));
 //$connect->insertWhereIndex( "Question", "hg", "questions", "UserId", "1435647" );
 //$connect->insertWithoutIndex("Email", "iamMM@Hrt", "profile");
 
